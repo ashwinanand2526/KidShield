@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KidShield Settings</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="shield-icon">🛡️</div>
+        <h1>KidShield</h1>
+      </div>
+      <p class="subtitle">Protecting young minds</p>
+    </header>
+    
+    <main>
+      <div class="setting-row">
+        <div class="setting-info">
+          <h2>Active Filtering</h2>
+          <p>Filters explicit text dynamically</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="toggleKidShield" checked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </main>
+
+    <footer>
+      <p class="status-msg" id="statusMsg">KidShield is ON</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
