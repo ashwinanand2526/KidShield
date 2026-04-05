@@ -1,2 +1,4 @@
-KidShield browser extension 
-Dynamically replace explicit text with child-friendly alternatives. List of words already maintained and this is used.
+**KidShield** browser extension 
+
+Dynamically replace explicit text with child-friendly alternatives. 
+Using browser based model (Transformers.js) directly runs inside Chrome extension using WebGPU (No install).
